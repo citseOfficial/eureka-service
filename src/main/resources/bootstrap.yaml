@@ -7,5 +7,7 @@ spring:
     config:
       enabled: true
       uri: http://20.197.181.20:8081
-  
-
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
